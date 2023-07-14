@@ -1,6 +1,6 @@
 import { createClient } from "contentful"
 import AboutPage from "@/components/AboutPage"
-import Footer from "@/components/Footer"
+
 // import AboutImageSlider from "@/components/AboutImageSlider"
 
 export async function getStaticProps() {
@@ -35,7 +35,7 @@ export async function getStaticProps() {
             grid-gap: 20px 60px;
           }
         `}</style>
-        <Footer/>
+       
       </div>
     )
   }

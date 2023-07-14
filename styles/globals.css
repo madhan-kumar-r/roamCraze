@@ -99,33 +99,103 @@ a {
 }
 
 /* --ABOUT-- */
-.about-outer{
-    display: flex;
-    justify-content: space-evenly;
+.about-list{
+  background-image: url("/abt-bg.jpg");
+  padding-top: 40px;
 }
-.about-main-div{
-    background-color: pink;
-    margin-left: 180px;
-    margin-right: 180px;
+.about-main-div {
+ /* From https://css.glass */
+background: rgba(8, 77, 82, 0.34);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+border: 1px solid rgba(8, 77, 82, 0.78);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
 }
-.about-content{
+
+.about-outer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.about-img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-content {
+  text-align: justify;
+  color: white;
+  line-height: 60px;
+}
+
+.abt-h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.abt-p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+.about-head {
+  color: white;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .about-main-div {
+    max-width: 1200px;
     padding: 40px;
-}
-.abt-h2{
+  }
+
+  .about-outer {
+    flex-direction: row;
+    margin-right: 30px;
+  }
+
+  .about-img {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+
+  .abt-img-r {
+    float: right;
+  }
+
+  .abt-h2 {
     font-size: 30px;
-    text-align: center;
+  }
+
+  .abt-p {
+    font-size: 18px;
+  }
+
+  .about-head {
+    font-size: 48px;
+  }
 }
-.abt-p{
-    line-height: 30px;
-  letter-spacing: 2px;
-  font-size: 15px;
-}
-.about-head{
-    font-size: 50px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
+
+
+
+
+
+
+
 
 /* --COUNTRIES-- */
 
@@ -154,4 +224,25 @@ a {
 } */
 .country-slide-img{
     width: 500px;
+}
+
+/* --HOME-- */
+.home-header{
+  width: 100%;
+  position: absolute;
+  top: 250px;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+/* MEDIA */
+
+@media(max-width: 800px){
+  .home-header{
+   top: 130px;
+    font-size: 50px;
+   
+  }
+  
 }
