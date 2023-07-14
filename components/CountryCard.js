@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 
-export default function Countries() {
+export default function CountryCard() {
   const countries = [
     { name: "greece", title: "Greece", image: "/greece.jpg" },
     { name: "spain", title: "Spain", image: "/spain.jpg" },

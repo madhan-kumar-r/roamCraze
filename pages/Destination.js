@@ -1,11 +1,12 @@
-import Countries from '@/components/Countries';
-import Footer from '@/components/Footer';
+
+import CountryCard from '@/components/CountryCard';
+
 
 export default function Destination(){
     return(
         <>
-        <Countries/>
-        <Footer/>
+        <CountryCard/>
+       
         </>
     )
 }
