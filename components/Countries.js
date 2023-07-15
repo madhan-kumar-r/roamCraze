@@ -18,7 +18,7 @@ export default function Countries() {
       {countries.map(({ name, title, image }) => (
         <div className="shadow-lg rounded-lg" key={name}>
           <Link href={`/${name}`}>
-            <Image className="rounded-t-lg" src={image} height={300} width={400} alt="thumb" />
+            <Image className="rounded-t-lg" src={image} height={500} width={800} alt="thumb" />
           </Link>
           <div className="p-5">
             <h2 className="text-3xl font-bold mb-3">{title}</h2>

@@ -103,18 +103,19 @@ a {
 }
 
 /* --ABOUT-- */
-.about-list{
+.about-list {
   background-image: url("/abt-bg.jpg");
   padding-top: 40px;
 }
+
 .about-main-div {
- /* From https://css.glass */
-background: rgba(8, 77, 82, 0.34);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4px);
--webkit-backdrop-filter: blur(4px);
-border: 1px solid rgba(8, 77, 82, 0.78);
+  /* From https://css.glass */
+  background: rgba(8, 77, 82, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(8, 77, 82, 0.78);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -133,6 +134,7 @@ border: 1px solid rgba(8, 77, 82, 0.78);
   text-align: center;
   margin-bottom: 20px;
 }
+
 .about-img img {
   max-width: 100%;
   height: auto;
@@ -193,6 +195,7 @@ border: 1px solid rgba(8, 77, 82, 0.78);
     font-size: 48px;
   }
 }
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -236,10 +239,12 @@ border: 1px solid rgba(8, 77, 82, 0.78);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
+
 .main-image.zoomed img {
   transform: scale(1.2);
   cursor: zoom-out;
 }
+
 .zoom-in {
   transform: scale(1.2);
   transition: transform 0.3s ease;
@@ -259,7 +264,8 @@ border: 1px solid rgba(8, 77, 82, 0.78);
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
-  color: #4eb193; /* Replace with your desired color */
+  color: #4eb193;
+  /* Replace with your desired color */
 }
 
 .description {
@@ -310,7 +316,8 @@ border: 1px solid rgba(8, 77, 82, 0.78);
   height: 100%;
   border-radius: 8px;
   box-sizing: border-box;
-  border: 2px solid #ffffff; /* Customize the border color */
+  border: 2px solid #ffffff;
+  /* Customize the border color */
   z-index: 2;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -321,7 +328,8 @@ border: 1px solid rgba(8, 77, 82, 0.78);
 }
 
 .image-item:hover img {
-  filter: brightness(80%); /* Adjust the brightness value as desired */
+  filter: brightness(80%);
+  /* Adjust the brightness value as desired */
 }
 
 .back-link {
@@ -333,75 +341,73 @@ border: 1px solid rgba(8, 77, 82, 0.78);
 
 /* --COUNTRIES-- */
 
-.country-main{
-    margin-left: 170px;
-    margin-right: 170px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.country-main {
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.country-h2{
-    text-align: center;
-    font-size: 20px;
-    letter-spacing: 2px;
-    padding: 20px;
-}
-.country-card{
-    margin-bottom: 50px;
-    background-color: powderblue;
-}
-/* .dest-list{
-    display: flex;
-    flex-wrap: nowrap;
-} */
-/* .country-slide-img{
-    width: 500px;
-} */
-/* styles/global.css */
 
-./* styles/global.css */
+.country-h2 {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 20px;
+}
 
-/* styles/global.css */
+.country-card {
+  margin-bottom: 50px;
+  background-color: powderblue;
+}
+
 .navbar {
-  padding: 20px 0; 
+  padding: 20px 0;
 }
-.footer{
+
+.footer {
   margin-top: 20px;
 }
+
 .sliderContainer {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  display: inline-block; /* Change display to inline-block */
-  text-align: center; /* Add text-align to center the slider */
-  margin:40px 250px 40px 250px;
+  display: inline-block;
+  /* Change display to inline-block */
+  text-align: center;
+  /* Add text-align to center the slider */
+  margin: 40px 250px 40px 250px;
   cursor: pointer;
 }
+
 .slideItem {
   position: relative;
- 
+
 }
 
 @media (max-width: 800px) {
   .sliderContainer {
     width: 100%;
     padding: 0 20px;
-    
+
   }
 }
 
 .slideTitle {
   position: absolute;
-  top: 10px; /* Adjust the distance from the bottom as needed */
+  top: 10px;
+  /* Adjust the distance from the bottom as needed */
   left: 0;
   right: 0;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  z-index: 2; /* Add this line */
-  
+  z-index: 2;
+  /* Add this line */
+
 }
 
 
@@ -420,13 +426,16 @@ border: 1px solid rgba(8, 77, 82, 0.78);
   width: 500px;
   height: 300px;
   margin: 0 auto;
-  display: inline-block; /* Add display inline-block to make it inline */
+  display: inline-block;
+  /* Add display inline-block to make it inline */
   transition: transform 0.3s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .slideItem:hover {
   transform: scale(1.05);
 }
+
 .slideItem:hover::before {
   content: "";
   position: absolute;
@@ -434,7 +443,8 @@ border: 1px solid rgba(8, 77, 82, 0.78);
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3); /* Adjust the overlay color and opacity as needed */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Adjust the overlay color and opacity as needed */
   z-index: 1;
 }
 
@@ -443,7 +453,7 @@ border: 1px solid rgba(8, 77, 82, 0.78);
   height: 100%;
   object-fit: cover;
   display: block;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .carouselArrow {

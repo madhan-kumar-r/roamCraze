@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer"
 export default function Contact(){
   return(
-      <div className="flex flex-row gap-x-10 justify-center items-center m-8">
+      <div className=" min-h-screen flex flex-row gap-x-10 justify-center items-center m-8">
         <div className=" gap-x-3">
           <h1 className="text-lg text-center tex mb-5 ">GET IN TOUCH</h1>
           <h1 className=" text-3xl text-center mb-5">Contact Form</h1>

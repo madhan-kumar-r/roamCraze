@@ -124,7 +124,8 @@ export default function CountryPage({ country, contentTypes }) {
   );
 
   return (
-    <div className="sliderContainer">
+    <div className="min-h-screen" >
+      <div className="sliderContainer">
       <Carousel
         showArrows={true}
         showThumbs={false}
@@ -149,6 +150,7 @@ export default function CountryPage({ country, contentTypes }) {
           </Link>
         ))}
       </Carousel>
+    </div>
     </div>
   );
 }
